@@ -1,0 +1,55 @@
+1) List 5 difference between Browser JS(console) v Nodejs
+Ans:- 
+
+	BrowserJS:-
+i) Browser executes JS at the client side.
+ii) "window" is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+iii) Browsers may have an object named "global", but it will be the exact one as "window".
+iv) Browsers are not headless.
+v) Browsers processes response objects.
+vi) "location" is another predefined object in browsers, that has all the information about the url we have loaded.
+
+
+	NodeJS
+i) Node executes JS at the server side.
+ii) Node doesn't have a predefined "window" object cause it doesn't have a window to draw anything.
+iii) Node has "global", which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works only.
+iv) Node is headless.
+v) Node processes request object.
+vi) "location" object is related to a particular url; that means it is for page specific. So, node doesn't require that.
+
+
+2) watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+Ans:- 
+i) Components of the browser are Bindings (Network, API's, OS etc), Rendering, Platform (OS), JSVM
+ii) Tokenizer:
+	Start tag:
+	'<' tag open, '>' tag close, 'div' tag name.
+	End tag:
+	'</' Close tag open, '>' tag close, 'div' tag name.
+iii) <script/> at the bottom parse unineterrupted and renders faster.
+iv) CSS and HTML creates a DOM tress.
+v) DOM tree is converted into Render tree.
+
+
+3) Execute the below code and write your description in txt file
+typeof(1)
+typeof(1.1)
+typeof('1.1')
+typeof(true)
+typeof(null)
+typeof(undefined)
+typeof([])
+typeof({})
+typeof(NaN)
+
+Ans:-
+i) typeof(1) - number
+ii) typeof(1.1) - number
+iii) typeof('1.1') - string
+iv) typeof(true) - boolean
+v) typeof(null) - object
+vi) typeof(undefined) - undefined
+vii) typeof([]) - object
+viii) typeof({}) - object
+ix) typeof(NaN) - number
